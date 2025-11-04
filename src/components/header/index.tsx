@@ -6,7 +6,7 @@ import { Group, Handshake, Info, Newspaper, Science } from "@mui/icons-material"
 
 export function Header(){
     return (
-        <header className="flex px-6 py-4 bg-stone-800 text-white">
+        <header className="flex px-6 py-4 bg-stone-950 text-neutral-50">
             <div className="flex items-center justify-between w-full mx-auto max-w-7x1">
                 <div>
                     <Link href='/'>
@@ -21,37 +21,37 @@ export function Header(){
                 </div>
 
                 <nav>
-                    <ul className="flex itens-center justify-center gap-6">
+                    <ul className="flex items-center justify-center gap-6">
                         <li>
-                            <Link href='sobre' >
+                            <Link href='sobre' className="flex items-center gap-2">
                                 <Info/>
                                 Sobre
                             </Link>
                         </li>
 
                         <li>
-                            <Link href='pesquisa'>
+                            <Link href='pesquisa' className="flex items-center gap-2">
                                 <Science/>
                                 Pesquisa
                             </Link>
                         </li>
 
                         <li>
-                            <Link href='noticias'>
+                            <Link href='noticias' className="flex items-center gap-2">
                                 <Newspaper/>
                                 Notícias
                             </Link>
                         </li>
 
                         <li>
-                            <Link href='membros'>
+                            <Link href='membros' className="flex items-center gap-2">
                                 <Group/>
                                 Membros
                             </Link>
                         </li>
 
                         <li>
-                            <Link href='parceiros'>
+                            <Link href='parceiros' className="flex items-center gap-2">
                                 <Handshake/>
                                 Parceiros
                             </Link>

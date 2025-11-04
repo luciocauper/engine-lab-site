@@ -1,2 +1,18 @@
 @import "tailwindcss";
 
+html,.font-space-grotesk{
+    font-family: var(--font-space-grotesk);
+}
+
+h1,.font-syne{
+    font-family: var(--font-syne);
+}
+h2,h3,h4,h5,h6,.font-bricolage{
+    font-family: var(--font-bricolage);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
